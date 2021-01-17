@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    color: blue;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1920px;
+    max-width: 100%;
+    background-image: url("../img/view3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-top: 50px;
+}
+
+.inputBlock {
+    width: 26.6%;
+    max-width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.our {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our > span {
+    font-family: 'Potta One', cursive;
+    font-size: 1.3rem;
+    color: #fff6cc;
+}
+
+.inputBlock:nth-child(2) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputBlock:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    padding: 10px 0px 10px  5px;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+
+input::-webkit-input-placeholder {
+    color: #000000;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 1.1rem;
+}
+input:focus  {
+    color: #166bff;
+}
+
+span {
+    display: flex;
+    margin: 7px 0px 7px 0px;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 18px;
+    color: #8dff00;
+}
+h2 {
+    font-family: 'Potta One', cursive;
+    font-size: 50px;
+    color: #6b7d00;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h2:hover {
+    color: #166bff;
+    transition: all 0.5s;
+}
+
+.buttonBlock {
+    padding:30px 0px;
+}
+
+button {
+    width: 150px;
+    border-radius: 15px;
+    padding: 7px 0;
+    outline: none;
+    background-color: #00ff8b;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Potta One', cursive;
+}
+
+button:hover {
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+#statsAll > span {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+#personsList li > span {
+    font-family: 'Oswald', sans-serif;
+    color: #fff600;
+    font-size: 1.5rem;
+}
+

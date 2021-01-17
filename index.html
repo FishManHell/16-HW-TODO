@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EmployeeConstructor</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Potta+One&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="inputBlock">
+            <h2 class="todo">TODO</h2>
+            <label class="our">
+                <span>First-Name</span>
+                <input type="text" id="firstName" placeholder="Enter your Name" required>
+            </label>
+
+            <label class="our">
+                <span>Last-Name</span>
+                <input type="text" id="lastName" placeholder="Enter your Last-Name" required>
+            </label>
+
+            <label class="our">
+                <span>Age</span>
+                <input type="number" id="age" min="0" placeholder="Enter your Age" required>
+            </label>
+
+            <label class="our">
+                <span>Id</span>
+                <input type="number" id="id" min="0" placeholder="Enter your Id-Number"  required>
+            </label>
+            <label class="our">
+                <span>Salary</span>
+                <input type="number" id="salary" min="0" placeholder="Enter your Salary" required>
+            </label>
+
+            <div class="buttonBlock">
+                <button id="addPerson">Add person</button>
+            </div>
+        </div>
+
+        <div id="stats" class="inputBlock">
+            <h2 id="calcStats">Stats</h2>
+            <ol id="statsAll"></ol>
+        </div>
+
+        <div class="inputBlock">
+            <h2 id="showCompany">Persons</h2>
+            <ol id="personsList"></ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
